@@ -29,7 +29,7 @@ function onStartChangeColor() {
     refs.start.setAttribute(`disabled`, "")
     
     intervalChangeColor = setInterval(() => {
-    refs.section.setAttribute(`bgcolor`, `${colors[randomIntegerFromInterval(1, 6)]}`)
+    refs.section.setAttribute(`bgcolor`, `${colors[randomIntegerFromInterval(0, 5)]}`)
     
 }, TIME_CHANGE_COLOR);
     
